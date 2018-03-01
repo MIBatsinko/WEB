@@ -1,117 +1,105 @@
-html {
-height: 100%;
-width: 100%;
+* {
+    margin: 0 auto;
+}
+ 
+body {
+        background-color: lightblue;
 }
 
 p {
-    font-size: 18px;
-    color: #000000;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.text_center {
-    text-align: center;
-    margin-top: 20px;
-
+    margin-top: 15px;
 }
 
 span {
     font-weight: bold;
 }
 
-.block {
-    width: 250px;
-    float: left;
-    margin: 10px 80px 0 0;
-}
-
-.pic{
-    width: 250px;
-    height: 290px;
-    margin-left: 80px;
+ul {
+    margin-top: -15px;
 }
 
 .fullwrap {
-  width: 700px;
-  min-height: 30px; 
-  background: #dbdbdb;
-  padding-top: 70px;
-  padding-right: 70px;
-  padding-left: 70px;
-}
-}
-.header {
-    width: 100%;
-    height: 240px;
-    background: #808080;
-}
-
-.header_img{
-    width: 93%;
-    min-height: 30px; 
-    display: block;
-    margin: 0 auto;
-}
-.footer {
-    width: 640px;
-    background: #4682B4;
-    display: block;
-    margin: 0 auto;    
-}
-.wrap {
-    width: 100%;
-    margin: 3px 0;
+    width: 600px;
     background: #FFFFFF;
+    margin: 20px auto;  
+    padding:0 0 10px 0;
+}
+ 
+.wrap {
+    width: 540px;
+    margin-top: 20px;
 }
 
-.clearboth {
-    clear:both;
+.header {
+    width: 540px;
+    margin:0 30px;
+}
+ 
+.text {
+    width: 500px;
+    margin-top: 20px;
+}
+ 
+.center {
+    text-align: center;
+}
+ 
+.first {
+    width: 250px;
+    float: left;
+    margin: 10px 10px 0px 10px;
+}
+ 
+.firstimages {
+    width: 250px;
+    height: 200px;
 }
 
-.i {
-    font-style: italic;
+.footer {
+    width: 580px;
+    height: 160px;
+    background: #4682B4; 
+    color: #fff;
+    text-align: center;
+    margin:10px 10px 20px 10px;
+}
+ 
+.footer a {
+    font-weight: bold;
+}
+
+.footer p {
+    margin:0;
+}
+
+.footer img {
+    width:40px;
+    height:40px;
+    margin:10px 5px;
+}
+
+.white {
+    color:white;
 }
 
 button {
-    width: 640px;
-    height: 40px;
+    width: 540px;
+    height:40px;
     background: #B22222;
     border-radius: 10px;
     border:  none;
     color: white;
-    margin: 20px 30px 20px;
+    margin: 5px 0 5px;
 }
 
-.block button {
+.first button {
     width: 250px;
     height:40px;
     background: #B22222;
     border-radius: 10px;
-    margin: 20px 80px 20px;
+    margin:5px 0 10px;
 }
 
-.white_text_center{
-    text-align: center;
-    margin-top: 16px;
-    color: #FFFFFF;
-    font-size: 16px;
-}
-
-ul {
-    font-size: 18px;
-    margin-top: -20px;
-    margin-left: 70px;
-}
-
-.block_text{
-    font-size: 18px;
-    color: #000000;
-    margin-left: 80px;
-    margin-right: -60px;
-}
-
-.footer img {
-    width: 40px;
-    height: 40px;
+.clearboth {
+    clear:both;
 }
